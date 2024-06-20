@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="w-full z-10 fixed">
+      <nav class="flex items-center justify-between p-4 md:p-10 text-white">
+        <div class="nav-logo">
+          <a href="#">
+            <img
+              src="https://preview.colorlib.com/theme/gymlife/img/logo.png"
+              alt="Logo"
+              class="h-8"
+            />
+          </a>
+        </div>
+        <div class="hidden md:flex nav-link space-x-4 md:pl-6 md:pr-6">
+          <a href="#" class="hover:text-gray-400 md:pl-6">Home</a>
+          <a href="#" class="hover:text-gray-400 md:pl-6">AboutUs</a>
+          <a href="#" class="hover:text-gray-400 md:pl-6">Classes</a>
+          <a href="#" class="hover:text-gray-400 md:pl-6">Services</a>
+          <a href="#" class="hover:text-gray-400 md:pl-6">Pages</a>
+          <a href="#" class="hover:text-gray-400 md:pl-6">Contact</a>
+        </div>
+        <div class="flex space-x-4">
+          <i class="ri-search-line cursor-pointer hover:text-gray-400"></i>
+          <i
+            class="ri-facebook-circle-line cursor-pointer hover:text-gray-400"
+          ></i>
+          <i class="ri-twitter-x-line cursor-pointer hover:text-gray-400"></i>
+          <i class="ri-instagram-line cursor-pointer hover:text-gray-400"></i>
+          <i class="ri-youtube-line cursor-pointer hover:text-gray-400"></i>
+        </div>
+        <div class="md:hidden">
+          <button id="menu-button" class="focus:outline-none">
+            <i class="ri-menu-line text-2xl"></i>
+          </button>
+        </div>
+      </nav>
+      <div id="mobile-menu" class="md:hidden hidden">
+        <div class="flex flex-col space-y-4 p-4 bg-gray-800 text-white">
+          <a href="#" class="hover:text-gray-400">Home</a>
+          <a href="#" class="hover:text-gray-400">About Us</a>
+          <a href="#" class="hover:text-gray-400">Classes</a>
+          <a href="#" class="hover:text-gray-400">Services</a>
+          <a href="#" class="hover:text-gray-400">Pages</a>
+          <a href="#" class="hover:text-gray-400">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- first section of the home page -->
+    <div id="carousel" class="relative w-full bg-cover bg-center h-screen">
+      <div
+        id="first-section1"
+        class="carousel-item absolute inset-0 active md:grid md:grid-cols-2 md:p-20"
+      >
+        <div
+          class="p-20 pt-28 flex flex-col justify-center align-middle md:p-20"
+        >
+          <h1 class="text-5xl text-orange-600 capitalize font-bold">
+            SHAPE YOUR PERFECT BODY
+          </h1>
+          <p class="text-white pb-5 pt-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab fuga
+            voluptatem aspernatur alias non placeat incidunt autem commodi
+            natus, id quos veniam impedit atque cumque voluptatibus recusandae
+            dolore modi eaque!
+          </p>
+          <button
+            class="bg-orange-600 rounded-lg font-bold text-1xl text-white p-5"
+          >
+            Take a tour now
+          </button>
+        </div>
+        <div>
+          <h1>1</h1>
+        </div>
+      </div>
+      <div
+        id="first-section3"
+        class="carousel-item absolute inset-0 md:grid md:grid-cols-2 md:p-20"
+      >
+        <div class="p-20 flex flex-col justify-center align-middle md:p-20">
+          <h1 class="text-5xl text-orange-600 capitalize font-bold">
+            SHAPE YOUR PERFECT BODY
+          </h1>
+          <p class="text-white pb-5 pt-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab fuga
+            voluptatem aspernatur alias non placeat incidunt autem commodi
+            natus, id quos veniam impedit atque cumque voluptatibus recusandae
+            dolore modi eaque!
+          </p>
+          <button
+            class="bg-orange-600 rounded-lg font-bold text-1xl text-white p-5"
+          >
+            Take a tour now
+          </button>
+        </div>
+        <div>
+          <h1>2</h1>
+        </div>
+      </div>
+      <div
+        id="first-section2"
+        class="carousel-item absolute inset-0 md:grid md:grid-cols-2 md:p-20 p-10"
+      >
+        <div class="p-20 flex flex-col justify-center align-middle md:p-20">
+          <h1 class="text-5xl text-orange-500 capitalize font-bold">
+            SHAPE YOUR PERFECT BODY
+          </h1>
+          <p class="text-white pb-5 pt-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab fuga
+            voluptatem aspernatur alias non placeat incidunt autem commodi
+            natus, id quos veniam impedit atque cumque voluptatibus recusandae
+            dolore modi eaque!
+          </p>
+          <button
+            class="bg-orange-600 rounded-lg font-bold text-1xl text-white p-5"
+          >
+            Take a tour now
+          </button>
+        </div>
+        <div>
+          <h1>3</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- second section -->
+    <div class="mt-10 p-6">
+      <div>
+        <h1 class="text-red-700">INFORMATION ABOUT US</h1>
+        <h1 class="text-3xl pt-3 pb-5 font-bold">
+          DAZKO A <span class="text-orange-700">CROSSFIT</span> WORKOUT TRAINING
+          CENTER
+        </h1>
+        <p class="text-gray-400">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics, a large
+          language ocean.
+        </p>
+      </div>
+
+      <div>
+        <!-- simple title before the girls image need make grid for the md  -->
+        <div class="font-thin pt-2">
+          <div class="p-2">
+            <i class="ri-arrow-right-line text-red-600"></i>
+            <a href="#">MEN FITNESS AND WORKOUT</a>
+          </div>
+          <div class="p-2">
+            <i class="ri-arrow-right-line text-red-600"></i>
+            <a href="#">WOMEN FITNESS AND WORKOUT</a>
+          </div>
+          <div class="p-2">
+            <i class="ri-arrow-right-line text-red-600"></i>
+            <a href="#">PERSONAL TRAINING</a>
+          </div>
+        </div>
+
+        <!-- now the girls image section -->
+        <div class="pt-10">
+          <img
+            src="https://preview.colorlib.com/theme/dazko/images/about.png"
+            alt=""
+          />
+        </div>
+        <div class="md:bg-red-600 w-full h-fit">
+          <div
+            class="bg-blue-700 md:w-72 h-fit flex flex-col justify-center text-center bg-gradient-to-t align-middle p-10 text-white"
+          >
+            <div class="pt-16">
+              <p class="text-5xl">30+</p>
+              <p>YEARS OF EXPERIENCE</p>
+            </div>
+            <div class="justify-center pt-16">
+              <p class="text-5xl">100+</p>
+              <p>FITNESS TRAINER</p>
+            </div>
+            <div class="justify-center pt-16">
+              <p class="text-5xl">310+</p>
+              <p>BEST EQUIPMENT</p>
+            </div>
+            <div class="justify-center align-middle pt-16 pb-16">
+              <p class="text-5xl">10k+</p>
+              <p>SATISFIED CUSTOMER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- third section  -->
+    <div>
+      <!-- invite to join us heading -->
+      <div class="text-center mt-8 m-3 p-4">
+        <h3 class="text-red-600">JOIN US NOW</h3>
+        <h1 class="font-bold text-3xl">
+          JOIN US OUR FREE WORKOUT WITH
+          <span class="text-red-600">DAZKO</span>
+        </h1>
+      </div>
+
+      <div
+        class="text-center p-4 pt-10 flex flex-col align-middle justify-center"
+      >
+        <div class="pt-14">
+          <div class="text-center flex justify-center">
+            <img
+              class="w-28"
+              src="https://preview.colorlib.com/theme/dazko/images/svg/001-fitness.svg"
+              alt=""
+            />
+          </div>
+
+          <h2 class="font-bold text-2xl pt-4 italic">FREE FITNESS TRAINING</h2>
+          <p class="text-gray-500 pt-4">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia. It is a paradisematic country, in which
+            roasted parts of sentences fly into your mouth.
+          </p>
+        </div>
+        <div class="pt-14">
+          <div class="text-center flex justify-center">
+            <img
+              class="w-28"
+              src="https://preview.colorlib.com/theme/dazko/images/svg/002-treadmill.svg"
+              alt=""
+            />
+          </div>
+
+          <h2 class="font-bold text-2xl pt-4 italic">
+            TONS OF CARDIO & STRENGTH
+          </h2>
+          <p class="text-gray-500 pt-4">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia. It is a paradisematic country, in which
+            roasted parts of sentences fly into your mouth.
+          </p>
+        </div>
+        <div class="pt-14">
+          <div class="text-center flex justify-center">
+            <img
+              class="w-28"
+              src="https://preview.colorlib.com/theme/dazko/images/svg/003-vip-card.svg"
+              alt=""
+            />
+          </div>
+
+          <h2 class="font-bold text-2xl pt-4 italic">
+            NO COMMENTMENT MEMBERSHIPS
+          </h2>
+          <p class="text-gray-500 pt-4">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia. It is a paradisematic country, in which
+            roasted parts of sentences fly into your mouth.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth section -->
+    <div class="mt-28 p-4">
+      <div class="text-center pt-2 pb-8">
+        <p class="text-red-700">OUR CLASSES</p>
+        <h1>
+          <span class="text-red-700 text-3xl font-bold">DAZKO</span> WORKOUT
+          CLASSES
+        </h1>
+      </div>
+
+      <div class="md:grid md:grid-cols-3 md:gap-2 md:pt-10 pt-6">
+        <div
+          class="relative w-full h-64 bg-cover bg-center flex flex-col-reverse justify-between font-bold text-white hover:text-orange-600"
+          style="
+            background-image: url('https://i.pinimg.com/736x/1b/a3/89/1ba389706684f84900f7cb4665508dab.jpg');
+          "
+        >
+          <div class="bg-black p-4 text-center hover:bg-red-600">
+            <p class="">BODY BUILDING</p>
+          </div>
+          <div
+            class="bg-black w-1/2 text-center p-4 rounded-ee-full hover:bg-gradient-to-r from-green-400 via-transparent to-purple-600"
+          >
+            <p class="">100$</p>
+          </div>
+        </div>
+        <div
+          class="relative w-full h-64 bg-cover bg-center flex flex-col-reverse justify-between font-bold text-white hover:text-orange-600"
+          style="
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/833/553/163/brunette-workout-fitness-gym-wallpaper-preview.jpg');
+          "
+        >
+          <div class="bg-black p-4 text-center hover:bg-red-600">
+            <p class="">BODY BUILDING</p>
+          </div>
+          <div
+            class="bg-black w-1/2 text-center p-4 rounded-ee-full hover:bg-gradient-to-r from-green-400 via-transparent to-purple-600"
+          >
+            <p class="">100$</p>
+          </div>
+        </div>
+        <div
+          class="relative w-full h-64 bg-cover bg-center flex flex-col-reverse justify-between font-bold text-white hover:text-orange-600"
+          style="
+            background-image: url('https://bellsofsteel.com/cdn/shop/articles/Are-Squats-Better-Than-Leg-Press_6bf51bc0-4485-4034-9e5f-d1a04a0ec754.webp?v=1717080627&width=1024');
+          "
+        >
+          <div class="bg-black p-4 text-center hover:bg-red-600">
+            <p class="">BODY BUILDING</p>
+          </div>
+          <div
+            class="bg-black w-1/2 text-center p-4 rounded-ee-full hover:bg-gradient-to-r from-green-400 via-transparent to-purple-600"
+          >
+            <p class="">100$</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-row-reverse text-orange-500 hover:text-red-600 pt-3"
+      >
+        <a href="#">VIEW ALL CLASSES</a>
+      </div>
+    </div>
+
+    <!-- fifth section -->
+    <div class="pt-10 mt-10">
+      <div class="text-center">
+        <p class="text-orange-600">OUR PRICING</p>
+        <p class="font-bold">
+          PRICING & <span class="text-orange-600">PACKAGES</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

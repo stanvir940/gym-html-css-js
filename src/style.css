@@ -1,0 +1,19 @@
+#first-section1 {
+  background-image: url("https://www.fitness-world.in/wp-content/uploads/2022/01/5-Reasons-Why-Your-Residential-Building-Needs-a-Professional-Gym-Banner-1200x620.jpg");
+}
+#first-section2 {
+  background-image: url("https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg");
+}
+#first-section3 {
+  background-image: url("https://getwallpapers.com/wallpaper/full/e/9/5/200423.jpg");
+}
+
+.carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item.active {
+  opacity: 1;
+}
