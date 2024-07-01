@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
       rel="stylesheet"
@@ -12,8 +14,8 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="w-full z-10 fixed">
-      <nav class="flex items-center justify-between p-4 md:p-10 text-white">
+    <div class="w-full z-10 fixed bg-blue-700">
+      <nav class="flex items-center justify-between p-4 md:p-6 text-white">
         <div class="nav-logo">
           <a href="#">
             <img
@@ -682,7 +684,7 @@
     </div>
 
     <!-- fitness trainer -->
-    <div class="md:mt-10 md:mb-10">
+    <div class="md:mt-10">
       <div class="text-center md:p-10">
         <p class="text-red-700 font-bold">TRAINER</p>
         <p class="font-bold text-3xl">
@@ -691,16 +693,17 @@
       </div>
 
       <div
-        class="bg-gradient-to-t from-black via-gray-800 to-white w-full md:grid md:grid-cols-4 md:gap-4 pt-10 pl-10"
+        class="bg-gradient-to-t from-black via-gray-800 to-white w-full md:grid md:grid-cols-4 md:gap-4 pt-10 pl-10 pb-0"
       >
         <div class="">
           <div class="w-72 hover:animate-pulse">
             <img
               src="https://preview.colorlib.com/theme/dazko/images/trainer-1.png"
               alt=""
+              class=""
             />
             <div class="text-white flex justify-center text-3xl">
-              <p class="animate-bounce w-6 h-6">Aeron Finch</p>
+              <p class="animate-bounce w-6 h-6">Aeron</p>
             </div>
           </div>
         </div>
@@ -711,7 +714,7 @@
               alt=""
             />
             <div class="text-white flex justify-center text-3xl">
-              <p class="animate-bounce w-6 h-6">Skyler Smith</p>
+              <p class="animate-bounce w-6 h-6">Skyler</p>
             </div>
           </div>
         </div>
@@ -722,7 +725,7 @@
               alt=""
             />
             <div class="text-white flex justify-center text-3xl">
-              <p class="animate-bounce w-6 h-6">Alice Lily</p>
+              <p class="animate-bounce w-6 h-6">Alice</p>
             </div>
           </div>
         </div>
@@ -733,7 +736,99 @@
               alt=""
             />
             <div class="text-white flex justify-center text-3xl">
-              <p class="animate-bounce w-6 h-6">Aeron Lahm</p>
+              <p class="animate-bounce w-6 h-6">Lahm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- feedback from user -->
+    <div class="bg-gray-200 p-4 md:p-10">
+      <div class="text-center md:pt-6">
+        <p class="font-bold text-red-600">TESTIMONIAL</p>
+        <p class="font-bold text-3xl">
+          HAPPY <span class="text-red-600">PEOPLE</span>
+        </p>
+      </div>
+
+      <!-- user review -->
+      <div class="md:grid md:grid-cols-3 gap-4 pt-10">
+        <div
+          class="border rounded-md overflow-hidden bg-slate-100 md:p-8 p-4 pb-0"
+        >
+          <div class="text-center text-3xl">
+            <i class="ri-chat-quote-line text-red-600"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 pt-4">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="flex p-4 pl-0">
+            <div>
+              <img
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg"
+                alt=""
+                class="w-20"
+              />
+            </div>
+            <div class="pl-4">
+              <h1 class="font-bold text-2xl text-gray-900">Glenn Maxwel</h1>
+              <h4 class="text-red-500">Market Manager</h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border rounded-md overflow-hidden bg-slate-100 md:p-8 p-4 pb-0"
+        >
+          <div class="text-center text-3xl">
+            <i class="ri-chat-quote-line text-red-600"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 pt-4">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="flex p-4 pl-0">
+            <div>
+              <img
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg"
+                alt=""
+                class="w-20"
+              />
+            </div>
+            <div class="pl-4">
+              <h1 class="font-bold text-2xl text-gray-900">Glenn Maxwel</h1>
+              <h4 class="text-red-500">Market Manager</h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border rounded-md overflow-hidden bg-slate-100 md:p-8 p-4 pb-0"
+        >
+          <div class="text-center text-3xl">
+            <i class="ri-chat-quote-line text-red-600"></i>
+          </div>
+          <div>
+            <p class="text-gray-500 pt-4">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <div class="flex p-4 pl-0">
+            <div>
+              <img
+                src="https://thumbs.dreamstime.com/b/portrait-handsome-smiling-young-man-folded-arms-smiling-joyful-cheerful-men-crossed-hands-isolated-studio-shot-172869765.jpg"
+                alt=""
+                class="w-20"
+              />
+            </div>
+            <div class="pl-4">
+              <h1 class="font-bold text-2xl text-gray-900">Glenn Maxwel</h1>
+              <h4 class="text-red-500">Market Manager</h4>
             </div>
           </div>
         </div>
@@ -746,6 +841,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
       integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
